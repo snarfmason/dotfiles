@@ -1,7 +1,3 @@
-if [ -d ~/.asdf ]; then
-  . $HOME/.asdf/asdf.sh
-fi
-
 if [ -e /usr/local/bin/direnv ]; then
   eval "$(direnv hook bash)"
 fi
